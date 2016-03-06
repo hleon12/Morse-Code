@@ -38,14 +38,13 @@ void loop() {
       morse = lookupTable[letter]; //Gets translation
     }
     
-    if(morse.length() > 0){
-      for(int i = 0; i < morse.length(); i++){
-        if(morse[i] == '-'){
-          line();
-        }
-        else{
-          dot();
-        }
+    
+    for(int i = 0; i < morse.length(); i++){
+      if(morse[i] == '-'){
+        line();
+      }
+      else{
+        dot();
       }
     }
     
