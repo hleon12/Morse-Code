@@ -1,7 +1,7 @@
-#Morse Code
+# Morse Code
 
 Created by Heiner León.
 
-##Overview
+## Overview
 
 Morse Code's encoder for Arduino.
